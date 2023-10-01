@@ -1,0 +1,81 @@
+body {
+  background-color: rgb(200,204,209);
+
+}
+
+#header {
+  color: rgb(65, 65, 65);
+  font-weight: bold;
+  font-size: 35px;
+  text-align: center;
+  border-bottom: 2px solid ;
+  border-bottom-color: rgb(30, 30, 30);
+  margin-bottom: 10px;
+  
+}
+#propic {
+  padding-top: 20px;
+  margin-left: 35px;
+  width: 250px;
+  height: fit-content;
+  border-radius: 22%;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+#profilepicblock {
+  border: 1px solid;
+  display: flex;
+  align-items: flex-start;
+  align-content: center;
+}
+
+#detailsnearpropic {
+  align-content: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-top: 40px;
+  margin-left: 20px;
+}
+
+
+#igicon {
+  background-color: none;
+  width: 70px;
+  height: fit-content;
+  object-fit: cover;
+  transition: 0.8s;
+}
+
+#linkedinicon {
+  width: 70px;
+  height: fit-content;
+  background-color: none;
+  object-fit: cover;
+  transition: 0.8s;
+}
+
+#igicon:hover {
+  height: fit-content;
+  width: 80px;
+
+}
+
+#linkedinicon:hover {
+  height: fit-content;
+  width: 80px;
+}
+
+.headings {
+  font-size: 22px;
+}
+
+#aboutbody {
+  font-size: 18px;
+}
+.edubody {
+  font-size: 18px;
+}
+
+#yrofgrad {
+  margin-bottom: 10px;
+}
